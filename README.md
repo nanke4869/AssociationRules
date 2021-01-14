@@ -1,4 +1,4 @@
-# DocumentClassification
+# AssociationRules
 ## 北航2020数据挖掘导论：关联规则
 
 
