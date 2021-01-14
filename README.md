@@ -1,8 +1,8 @@
 # DocumentClassification
-## 北航2020数据挖掘导论：文本分类
+## 北航2020数据挖掘导论：关联规则
 
 
-In this case, we have two categories of emails, in which one category is about hockey and the other is about baseball. The data is in the folder classification.
-1. Firstly preprocess the documents into numerical data (Record data). The preprocessing guidelines can be found in the introduction slides (SMO), consider using tf-idf
-2. Use SVMs to classify the documents and test the classification results with 5-fold cross validation. You should report the precision, recall, and F1-measure of each fold and the average values. (Recommend LIBSVM to implement SVMs. You can refer to the tutorial slides in evaluating the results.)
-3. Bonus (5 extra points). Implement Sequential Minimal Optimization (SMO) by following the introductive slides.
+Exeter, Inc. is a catalog firm that sells products in a number of different catalogs that it owns. The catalogs number in the dozens, but fall into nine basic categories: Clothing, House wares, Health, Automotive, Personal electronics, Computers, Garden, Novelty gift, and Jewelry. The costs of printing and distributing catalogs are high. By far the biggest cost of operation is the cost of promoting products to people who buy nothing. Having invested so much in the production of artwork and printing of catalogs, Exter wants to take every opportunity to use them effectively. One such opportunity is in cross selling - once a customer has “taken the bait” and purchases one product, try to sell them another while you have their attention.
+
+
+Such cross promotion might take the form of enclosing a catalog in the shipment of a purchased product, together with a discount coupon to induce a purchase from that catalog. Or it might take the form of a similar coupon sent by e-mail, with a link to the Web version of that catalog. But which catalog should be enclosed in the box or included as a link in the e-mail with the discount coupon? Exter would like it to be an informed choice - a catalog that has a higher probability of inducing a purchase than simply choosing a catalog at random.
